@@ -18,16 +18,13 @@
 
     <testsuites>
         <testsuite name="NewRelic Insights Test ">
-            <directory>src/Test</directory>
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
             <directory>src</directory>
-            <exclude>
-                <directory>src/Test</directory>
-            </exclude>
         </whitelist>
     </filter>
 </phpunit>
