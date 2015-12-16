@@ -3,7 +3,7 @@
 namespace EasyTaxi\NewRelic;
 
 use EasyTaxi\NewRelic\Config\TransactionConfig;
-use EasyTaxi\NewRelic\Test\Stub\Foo;
+use EasyTaxi\NewRelic\Stub\Foo;
 
 class TransactionTest extends \PHPUnit_Framework_TestCase
 {

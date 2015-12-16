@@ -26,7 +26,7 @@
     },
     "autoload-dev": {
         "psr-4" : {
-            "EasyTaxi\\NewRelic\\Test\\" : "tests"
+            "EasyTaxi\\NewRelic\\" : "tests"
         }
     }
 }
